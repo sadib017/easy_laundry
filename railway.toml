@@ -1,5 +1,5 @@
 [build]
-buildCommand = "cd vp && pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate"
+buildCommand = "pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate"
 
 [deploy]
-startCommand = "cd vp && gunicorn washy.wsgi:application --bind 0.0.0.0:$PORT"
+startCommand = "gunicorn washy.wsgi:application --bind 0.0.0.0:$PORT"
