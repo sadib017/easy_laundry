@@ -54,11 +54,6 @@ The project is structured as a small Django app inside `easy_laundry/vp` and inc
 - Add new routes inside your Django app `urls.py`
 - Place static assets in `vp/static`
 
-## Notes
-
-- The current UI is designed to be minimal and easy to extend.
-- Pricing values are hardcoded in the homepage and pricing templates.
-- The developer page is a simple team showcase layout.
 
 ## Next steps
 
