@@ -51,8 +51,9 @@
     }
     .team-card img {
       width: 100%;
-      height: 280px;
+      height: 320px;
       object-fit: cover;
+      object-position: top center;
     }
     .team-card-body {
       padding: 1.6rem;
@@ -78,49 +79,19 @@
   <header class="page-header">
     <div class="container">
       <h1>Meet the Team</h1>
-      <p>Minimal developer page for Easy Laundry. Clean layout, simple styling, and consistent cards for each team member.</p>
+      <!-- <p>Minimal developer page for Easy Laundry. Clean layout, simple styling, and consistent cards for each team member.</p> -->
     </div>
   </header>
 
   <main class="team-grid">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-sm-6 col-xl-3">
-          <div class="team-card">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="team-card mx-auto" style="max-width: 460px;">
             <img src="/static/images/sadib12.jpg" alt="Sadib">
-            <div class="team-card-body">
+            <div class="team-card-body text-center">
               <div class="team-card-title">Sadib</div>
               <div class="team-card-text">Backend developer and machine learning enthusiast building reliable systems.</div>
-              <a href="#" class="team-link">View profile</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="team-card">
-            <img src="/static/images/tahia.jpg" alt="Tahia">
-            <div class="team-card-body">
-              <div class="team-card-title">Tahia</div>
-              <div class="team-card-text">Frontend developer focused on polished interfaces and smooth experiences.</div>
-              <a href="#" class="team-link">View profile</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="team-card">
-            <img src="/static/images/rion.jpg" alt="Rion">
-            <div class="team-card-body">
-              <div class="team-card-title">Rion</div>
-              <div class="team-card-text">Frontend developer creating responsive, modern layouts for the app.</div>
-              <a href="#" class="team-link">View profile</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="team-card">
-            <img src="/static/images/joy.jpg" alt="Joy">
-            <div class="team-card-body">
-              <div class="team-card-title">Joy</div>
-              <div class="team-card-text">Designer crafting clean visuals and a consistent brand feel.</div>
               <a href="#" class="team-link">View profile</a>
             </div>
           </div>
