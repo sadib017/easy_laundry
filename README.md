@@ -3,7 +3,9 @@
 A minimal Django laundry service app with server-rendered pages, simplified pricing, and clean team and dashboard templates.
 
 ##
-
+![Preview](screenshot/preview1.png)
+##
+![Preview](screenshots/preview2.png)
 
 ## Project overview
 
