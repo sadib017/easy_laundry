@@ -16,7 +16,7 @@ This project is a Django-based laundry service platform built for a campus-style
 - Pricing and payment preview pages
 - Developer team page
 
-The project is structured as a small Django app inside `easy_laundry/vp` and includes static assets, templates, and route-backed views.
+The project is structured as a small Django app inside `easy_laundry/app_dir` and includes static assets, templates, and route-backed views.
 
 ## Key pages
 
@@ -37,7 +37,7 @@ The project is structured as a small Django app inside `easy_laundry/vp` and inc
 
 ## Local setup
 
-1. Open a terminal in `easy_laundry/vp`
+1. Open a terminal in `easy_laundry/app_dir`
 2. Activate your Python environment (if available):
    - Windows: `venv\Scripts\activate`
 3. Install dependencies:
@@ -50,14 +50,6 @@ The project is structured as a small Django app inside `easy_laundry/vp` and inc
 
 ## Customization
 
-- Add or update templates in `vp/templates/landing` and `vp/templates/dash`
+- Add or update templates in `app_dir/templates/landing` and `app_dir/templates/dash`
 - Add new routes inside your Django app `urls.py`
-- Place static assets in `vp/static`
-
-
-## Next steps
-
-- Connect the page templates to Django views and actual URL routes
-- Replace placeholder links with real app routes
-- Add form handling for order and payment actions
-- Implement user authentication and booking logic
+- Place static assets in `app_dir/static`
