@@ -2,6 +2,9 @@
 
 A minimal Django laundry service app with server-rendered pages, simplified pricing, and clean team and dashboard templates.
 
+##
+
+
 ## Project overview
 
 This project is a Django-based laundry service platform built for a campus-style workflow. It uses Bootstrap for layout and styling, with simple HTML pages for:
@@ -28,7 +31,7 @@ The project is structured as a small Django app inside `easy_laundry/vp` and inc
 - Python 3 / Django
 - Bootstrap 5 for responsive UI
 - Django templates for server-rendered pages
-- SQLite for local development (existing `db.sqlite3`)
+- MySQl
 
 ## Local setup
 
